@@ -54,7 +54,7 @@ void setupWiFiAndServer() {
   server.begin();
 }
 
-void handleClient() {
+void handleServer() {
   WiFiClient client = server.available();
   if (client) {
     float temp = getTemperature();

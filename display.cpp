@@ -37,7 +37,7 @@ void showMessage(const String& msg) {
   firstTime = true;
 }
 
-void handleDisplay() {
+void handleMessageDisplay() {
   if (messageMode) {
     if (firstTime) {
       digitalWrite(externalLedPin, HIGH);
