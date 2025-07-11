@@ -1,7 +1,7 @@
 
 # Arduino LCD display
 
-Arduino Nano ESP32 project to handle DHT11 sensor LCD display, and wifi connection + web interface for displaying custom messages
+Arduino Nano ESP32 project to handle DHT11 sensor, LCD display and Wi-Fi connection + web interface for displaying custom messages.
 
-I have no idea what im doing ;]
+I have no idea what im doing(chatGepetto doesnt either) ;]
 
