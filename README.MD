@@ -1,8 +1,10 @@
-
 # Arduino LCD display
 
-Arduino Nano ESP32 project to handle DHT11 sensor, LCD display and Wi-Fi connection + web interface for displaying custom messages(for 5 seconds, then goes back to T&H).
-LED is on when custom message is being displayed.
+Temperature and humidity display with an ability to show custom messages sent from webinterface based on Arduino ESP32.  
+For display i used 4x20 LCD with I2C LCM1602 converter.  
+Remember to setup your wifi ssid and password in secrets.h before flashing.  
+Webinterface IP will be displayed on screen for a short time on sucessfull connection.
+
 
 Here is a schematic or something:
 ![alt text](https://i.imgur.com/ahqNCaJ.png)
